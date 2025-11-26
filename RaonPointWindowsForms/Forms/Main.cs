@@ -1,5 +1,6 @@
 ﻿using RaonPointWindowsForms.Auth;
 using RaonPointWindowsForms.Entities.View;
+using RaonPointWindowsForms.Forms.Components;
 using RaonPointWindowsForms.Views.Components;
 using RaonPointWindowsForms.Views.Pages.Trainer;
 using RaonPointWindowsForms.Views.Pages.User;
@@ -29,7 +30,6 @@ namespace RaonPointWindowsForms.Forms.Admin
         public static MenuListItem CurrentMenuItem { get; set; } = null;
         public static UserControl CurrentControl { get; private set; } = null;
 
-
         public Main()
         {
             InitializeComponent();
@@ -37,20 +37,22 @@ namespace RaonPointWindowsForms.Forms.Admin
             if (Session.CurrentUser == null)
             {
                 MessageBox.Show("No user is currently logged in. Please log in first.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return; 
+                Close();
+                return;
             }
 
             if (Session.CurrentUser.role != "Trainer")
             {
                 menuItems.Add(new MenuItemView() { Title = "  Dashboard   ", Image = Properties.Resources.dashboard, Action = () => LoadUserControl(new UserDashboard()) });
-                menuItems.Add(new MenuItemView() { Title = "Workout Plan", Image = Properties.Resources.dashboard, Action = () => LoadUserControl(new WorkoutPlan()) });
-                menuItems.Add(new MenuItemView() { Title = "Membership Plan", Image = Properties.Resources.dashboard, Action = () => LoadUserControl(new MembershipPlan()) });
+                menuItems.Add(new MenuItemView() { Title = "Schedules", Image = Properties.Resources.schedule, Action = () => LoadUserControl(new Schedules()) });
+                //menuItems.Add(new MenuItemView() { Title = "Workout Plan", Image = Properties.Resources.dashboard, Action = () => LoadUserControl(new WorkoutPlan()) });
+                //menuItems.Add(new MenuItemView() { Title = "Membership Plan", Image = Properties.Resources.dashboard, Action = () => LoadUserControl(new MembershipPlan()) });
             }
             else
             {
                 menuItems.Add(new MenuItemView() { Title = "  Dashboard   ", Image = Properties.Resources.dashboard, Action = () => LoadUserControl(new AdminDashboard()) });
                 menuItems.Add(new MenuItemView() { Title = "  Members     ", Image = Properties.Resources.lists, Action = () => LoadUserControl(new Members()) });
-                menuItems.Add(new MenuItemView() { Title = "  Registration", Image = Properties.Resources.registration, Action = () => LoadUserControl(new Registration()) });
+                menuItems.Add(new MenuItemView() { Title = "  Class Schedule", Image = Properties.Resources.registration, Action = () => LoadUserControl(new ClassSchedule()) });
                 menuItems.Add(new MenuItemView() { Title = " Attendance  ", Image = Properties.Resources.attendance, Action = () => LoadUserControl(new Attendance()) });
                 menuItems.Add(new MenuItemView() { Title = "History     ", Image = Properties.Resources.history, Action = () => LoadUserControl(new History()) });
             }
@@ -66,6 +68,18 @@ namespace RaonPointWindowsForms.Forms.Admin
             contentPanel.Controls.Add(userControl);
             userControl.BringToFront();
             CurrentControl = userControl;
+        }
+
+        public void ShowModal(Form modal)
+        {
+            var overlay = Utils.Utils.OverlayForm(this);
+
+            overlay.Show();
+            modal.ShowInTaskbar = false;
+            modal.StartPosition = FormStartPosition.CenterParent;
+            modal.ShowDialog(this);
+
+            overlay.Close();
         }
 
         private void InitMenuListItems()

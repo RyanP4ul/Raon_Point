@@ -29,79 +29,55 @@
         private void InitializeComponent()
         {
             this.lblName = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
+            this.lblCheckInTime = new System.Windows.Forms.Label();
+            this.lblMemId = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lblName
             // 
             this.lblName.AutoSize = true;
-            this.lblName.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblName.ForeColor = System.Drawing.Color.Silver;
-            this.lblName.Location = new System.Drawing.Point(24, 15);
+            this.lblName.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblName.ForeColor = System.Drawing.Color.Gainsboro;
+            this.lblName.Location = new System.Drawing.Point(26, 15);
             this.lblName.Name = "lblName";
-            this.lblName.Size = new System.Drawing.Size(63, 15);
+            this.lblName.Size = new System.Drawing.Size(154, 18);
             this.lblName.TabIndex = 1;
-            this.lblName.Text = "Ryan Paul";
+            this.lblName.Text = "Ryan Paul Espinola";
             // 
-            // label1
+            // lblCheckInTime
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.Silver;
-            this.label1.Location = new System.Drawing.Point(180, 15);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(42, 15);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "01234";
+            this.lblCheckInTime.AutoSize = true;
+            this.lblCheckInTime.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCheckInTime.ForeColor = System.Drawing.Color.Silver;
+            this.lblCheckInTime.Location = new System.Drawing.Point(422, 23);
+            this.lblCheckInTime.Name = "lblCheckInTime";
+            this.lblCheckInTime.Size = new System.Drawing.Size(52, 15);
+            this.lblCheckInTime.TabIndex = 3;
+            this.lblCheckInTime.Text = "8:00 AM";
             // 
-            // label2
+            // lblMemId
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.Silver;
-            this.label2.Location = new System.Drawing.Point(301, 15);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(52, 15);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "8:00 AM";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.Silver;
-            this.label3.Location = new System.Drawing.Point(435, 15);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(59, 15);
-            this.label3.TabIndex = 4;
-            this.label3.Text = "10:00 AM";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.Silver;
-            this.label4.Location = new System.Drawing.Point(603, 15);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(49, 15);
-            this.label4.TabIndex = 5;
-            this.label4.Text = "Present";
+            this.lblMemId.AutoSize = true;
+            this.lblMemId.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMemId.ForeColor = System.Drawing.Color.Silver;
+            this.lblMemId.Location = new System.Drawing.Point(26, 34);
+            this.lblMemId.Name = "lblMemId";
+            this.lblMemId.Size = new System.Drawing.Size(29, 15);
+            this.lblMemId.TabIndex = 4;
+            this.lblMemId.Text = "M-1";
             // 
             // AttendanceListItem
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lblMemId);
+            this.Controls.Add(this.lblCheckInTime);
             this.Controls.Add(this.lblName);
             this.Name = "AttendanceListItem";
-            this.Size = new System.Drawing.Size(728, 46);
+            this.Size = new System.Drawing.Size(514, 64);
+            this.Load += new System.EventHandler(this.AttendanceListItem_Load);
+            this.Click += new System.EventHandler(this.AttendanceListItem_Click);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -110,9 +86,7 @@
         #endregion
 
         private System.Windows.Forms.Label lblName;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label lblCheckInTime;
+        private System.Windows.Forms.Label lblMemId;
     }
 }

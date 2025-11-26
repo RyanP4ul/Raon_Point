@@ -154,13 +154,53 @@
     <Compile Include="Auth\Session.cs" />
     <Compile Include="Config\ConfigurationData.cs" />
     <Compile Include="Data\Database.cs" />
+    <Compile Include="Entities\Model\ClassSchedule.cs" />
+    <Compile Include="Entities\Model\ClassType.cs" />
+    <Compile Include="Entities\Model\Member.cs" />
+    <Compile Include="Entities\Model\Membership.cs" />
     <Compile Include="Entities\Model\User.cs" />
     <Compile Include="Entities\View\MenuItemView.cs" />
+    <Compile Include="Forms\Components\Approved.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Components\Approved.Designer.cs">
+      <DependentUpon>Approved.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Components\ConfirmModal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Components\ConfirmModal.Designer.cs">
+      <DependentUpon>ConfirmModal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Components\CreateSchedule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Components\CreateSchedule.Designer.cs">
+      <DependentUpon>CreateSchedule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Components\EditUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Components\EditUser.Designer.cs">
+      <DependentUpon>EditUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Components\ViewBookingDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Components\ViewBookingDetails.Designer.cs">
+      <DependentUpon>ViewBookingDetails.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\Main.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forms\Main.Designer.cs">
       <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Components\OverlayForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Components\OverlayForm.Designer.cs">
+      <DependentUpon>OverlayForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\SignUp.cs">
       <SubType>Form</SubType>
@@ -168,12 +208,28 @@
     <Compile Include="Forms\SignUp.Designer.cs">
       <DependentUpon>SignUp.cs</DependentUpon>
     </Compile>
-    <Compile Include="Utils\Modal.cs" />
+    <Compile Include="Repository\HistoryRepository.cs" />
+    <Compile Include="Utils\Utils.cs" />
     <Compile Include="Views\Components\AttendanceListItem.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="Views\Components\AttendanceListItem.Designer.cs">
       <DependentUpon>AttendanceListItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Components\BookingListItem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Components\BookingListItem.Designer.cs">
+      <DependentUpon>BookingListItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Components\ClassScheduleListItem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Components\ClassScheduleListItem.Designer.cs">
+      <DependentUpon>ClassScheduleListItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Components\CustomChart .cs">
+      <SubType>Component</SubType>
     </Compile>
     <Compile Include="Views\Components\CustomComboBox.cs">
       <SubType>Component</SubType>
@@ -184,23 +240,35 @@
     <Compile Include="Views\Components\CustomTextBox .cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Include="Views\Components\HistoryListItem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Components\HistoryListItem.Designer.cs">
+      <DependentUpon>HistoryListItem.cs</DependentUpon>
+    </Compile>
     <Compile Include="Views\Components\MemberListItem.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="Views\Components\MemberListItem.Designer.cs">
       <DependentUpon>MemberListItem.cs</DependentUpon>
     </Compile>
-    <Compile Include="Views\Components\Modals\RegistrationSuccessModal.cs">
+    <Compile Include="Views\Components\RecentHistoryListItem.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Views\Components\Modals\RegistrationSuccessModal.Designer.cs">
-      <DependentUpon>RegistrationSuccessModal.cs</DependentUpon>
+    <Compile Include="Views\Components\RecentHistoryListItem.Designer.cs">
+      <DependentUpon>RecentHistoryListItem.cs</DependentUpon>
     </Compile>
     <Compile Include="Views\Components\RoundedBorderedButton.cs">
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="Views\Components\RoundedBorderedPanel.cs">
       <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Views\Components\TodayScheduleListItem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Components\TodayScheduleListItem.Designer.cs">
+      <DependentUpon>TodayScheduleListItem.cs</DependentUpon>
     </Compile>
     <Compile Include="Views\Components\TransparentPanel .cs">
       <SubType>Component</SubType>
@@ -210,6 +278,12 @@
     </Compile>
     <Compile Include="Views\Pages\Trainer\Attendance.Designer.cs">
       <DependentUpon>Attendance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Pages\Trainer\ClassSchedule.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Pages\Trainer\ClassSchedule.Designer.cs">
+      <DependentUpon>ClassSchedule.cs</DependentUpon>
     </Compile>
     <Compile Include="Views\Pages\Trainer\Dashboard.cs">
       <SubType>UserControl</SubType>
@@ -267,12 +341,36 @@
     <Compile Include="Views\Pages\User\MembershipPlan.Designer.cs">
       <DependentUpon>MembershipPlan.cs</DependentUpon>
     </Compile>
+    <Compile Include="Views\Pages\User\Schedules.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Pages\User\Schedules.Designer.cs">
+      <DependentUpon>Schedules.cs</DependentUpon>
+    </Compile>
     <Compile Include="Views\Pages\User\WorkoutPlan.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="Views\Pages\User\WorkoutPlan.Designer.cs">
       <DependentUpon>WorkoutPlan.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Forms\Components\Approved.resx">
+      <DependentUpon>Approved.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Components\ConfirmModal.resx">
+      <DependentUpon>ConfirmModal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Components\CreateSchedule.resx">
+      <DependentUpon>CreateSchedule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Components\EditUser.resx">
+      <DependentUpon>EditUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Components\OverlayForm.resx">
+      <DependentUpon>OverlayForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Components\ViewBookingDetails.resx">
+      <DependentUpon>ViewBookingDetails.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\Main.resx">
       <DependentUpon>Main.cs</DependentUpon>
     </EmbeddedResource>
@@ -282,14 +380,29 @@
     <EmbeddedResource Include="Views\Components\AttendanceListItem.resx">
       <DependentUpon>AttendanceListItem.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Views\Components\BookingListItem.resx">
+      <DependentUpon>BookingListItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Components\ClassScheduleListItem.resx">
+      <DependentUpon>ClassScheduleListItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Components\HistoryListItem.resx">
+      <DependentUpon>HistoryListItem.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Views\Components\MemberListItem.resx">
       <DependentUpon>MemberListItem.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Views\Components\Modals\RegistrationSuccessModal.resx">
-      <DependentUpon>RegistrationSuccessModal.cs</DependentUpon>
+    <EmbeddedResource Include="Views\Components\RecentHistoryListItem.resx">
+      <DependentUpon>RecentHistoryListItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Components\TodayScheduleListItem.resx">
+      <DependentUpon>TodayScheduleListItem.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\Pages\Trainer\Attendance.resx">
       <DependentUpon>Attendance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Pages\Trainer\ClassSchedule.resx">
+      <DependentUpon>ClassSchedule.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\Pages\Trainer\Dashboard.resx">
       <DependentUpon>Dashboard.cs</DependentUpon>
@@ -319,6 +432,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Views\Pages\User\MembershipPlan.resx">
       <DependentUpon>MembershipPlan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Pages\User\Schedules.resx">
+      <DependentUpon>Schedules.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\Pages\User\WorkoutPlan.resx">
       <DependentUpon>WorkoutPlan.cs</DependentUpon>

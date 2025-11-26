@@ -1,53 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\ryanpaul\\source\\repos\\RaonPointWindowsForms\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{36C8E630-F1FE-4E80-9985-F92EC9BCA8F6}|RaonPointWindowsForms\\RaonPointWindowsForms.csproj|c:\\users\\ryanpaul\\source\\repos\\raonpointwindowsforms\\raonpointwindowsforms\\forms\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36C8E630-F1FE-4E80-9985-F92EC9BCA8F6}|RaonPointWindowsForms\\RaonPointWindowsForms.csproj|solutionrelative:raonpointwindowsforms\\forms\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36C8E630-F1FE-4E80-9985-F92EC9BCA8F6}|RaonPointWindowsForms\\RaonPointWindowsForms.csproj|c:\\users\\ryanpaul\\source\\repos\\raonpointwindowsforms\\raonpointwindowsforms\\forms\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{36C8E630-F1FE-4E80-9985-F92EC9BCA8F6}|RaonPointWindowsForms\\RaonPointWindowsForms.csproj|solutionrelative:raonpointwindowsforms\\forms\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Main.cs",
-              "DocumentMoniker": "C:\\Users\\ryanpaul\\source\\repos\\RaonPointWindowsForms\\RaonPointWindowsForms\\Forms\\Main.cs",
-              "RelativeDocumentMoniker": "RaonPointWindowsForms\\Forms\\Main.cs",
-              "ToolTip": "C:\\Users\\ryanpaul\\source\\repos\\RaonPointWindowsForms\\RaonPointWindowsForms\\Forms\\Main.cs",
-              "RelativeToolTip": "RaonPointWindowsForms\\Forms\\Main.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T14:27:09.579Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Main.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ryanpaul\\source\\repos\\RaonPointWindowsForms\\RaonPointWindowsForms\\Forms\\Main.cs",
-              "RelativeDocumentMoniker": "RaonPointWindowsForms\\Forms\\Main.cs",
-              "ToolTip": "C:\\Users\\ryanpaul\\source\\repos\\RaonPointWindowsForms\\RaonPointWindowsForms\\Forms\\Main.cs [Design]",
-              "RelativeToolTip": "RaonPointWindowsForms\\Forms\\Main.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T14:27:08.386Z",
-              "EditorCaption": " [Design]"
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }

@@ -29,6 +29,10 @@ namespace RaonPointWindowsForms.Forms
         public SignUp()
         {
             InitializeComponent();
+
+            lblPower.Parent = pictureBox1;
+            lblFit.Parent = pictureBox1;
+            lblMotivation.Parent = pictureBox1;
         }
 
 
@@ -44,11 +48,11 @@ namespace RaonPointWindowsForms.Forms
 
         private async void btnSignUp_Click(object sender, EventArgs e)
         {
-            var first_name = tbFirstName.Text;
-            var last_name = tbLastname.Text;
-            var email = tbEmail.Text;
-            var password = tbPassword.Text;
-            var confirm_password = tbConfirmPassword.Text;
+            var first_name = tbFirstName.Texts;
+            var last_name = tbLastname.Texts;
+            var email = tbEmail.Texts;
+            var password = tbPassword.Texts;
+            var confirm_password = tbConfirmPassword.Texts;
 
             if (password != confirm_password)
             {
@@ -66,12 +70,16 @@ namespace RaonPointWindowsForms.Forms
                     return;
                 }
 
-                await connection.ExecuteAsync(@"INSERT INTO users (first_name, last_name, email, password) VALUES (@FirstName, @LastName, @Email, @PasswordHash)", new
+                var userId = await connection.ExecuteScalarAsync<long>(@"INSERT INTO users (first_name, last_name, email, password) VALUES (@FirstName, @LastName, @Email, @PasswordHash); SELECT LAST_INSERT_ID();", new
                 {
                     FirstName = first_name,
                     LastName = last_name,
                     Email = email,
                     PasswordHash = Utils.PasswordHasher.HashPassword(password)
+                }, tranaction);
+
+                await connection.ExecuteAsync("INSERT INTO members (user_id) VALUES (@UserID)", new { 
+                    UserID = userId
                 }, tranaction);
 
                 MessageBox.Show("Account created successfully!");

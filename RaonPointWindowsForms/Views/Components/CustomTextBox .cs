@@ -147,7 +147,11 @@ namespace RaonPointWindowsForms.Views.Components
             set
             {
                 textBox.Text = value;
-                SetPlaceholder(null, null);
+
+                if (string.IsNullOrEmpty(value))
+                {
+                    SetPlaceholder(null, null);
+                }
             }
         }
 

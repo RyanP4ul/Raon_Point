@@ -78,7 +78,6 @@ C:\Users\ryanpaul\source\repos\RaonPointWindowsForms\RaonPointWindowsForms\obj\D
 C:\Users\ryanpaul\source\repos\RaonPointWindowsForms\RaonPointWindowsForms\obj\Debug\RaonPointWindowsForms.Views.Components.AttendanceListItem.resources
 C:\Users\ryanpaul\source\repos\RaonPointWindowsForms\RaonPointWindowsForms\obj\Debug\RaonPointWindowsForms.Views.Components.MemberListItem.resources
 C:\Users\ryanpaul\source\repos\RaonPointWindowsForms\RaonPointWindowsForms\obj\Debug\RaonPointWindowsForms.Views.Components.MenuListItem.resources
-C:\Users\ryanpaul\source\repos\RaonPointWindowsForms\RaonPointWindowsForms\obj\Debug\RaonPointWindowsForms.Views.Components.Modals.RegistrationSuccessModal.resources
 C:\Users\ryanpaul\source\repos\RaonPointWindowsForms\RaonPointWindowsForms\obj\Debug\RaonPointWindowsForms.Views.Pages.Trainer.Attendance.resources
 C:\Users\ryanpaul\source\repos\RaonPointWindowsForms\RaonPointWindowsForms\obj\Debug\RaonPointWindowsForms.Views.Pages.Trainer.Dashboard.resources
 C:\Users\ryanpaul\source\repos\RaonPointWindowsForms\RaonPointWindowsForms\obj\Debug\RaonPointWindowsForms.Views.Pages.Trainer.History.resources
@@ -87,3 +86,16 @@ C:\Users\ryanpaul\source\repos\RaonPointWindowsForms\RaonPointWindowsForms\obj\D
 C:\Users\ryanpaul\source\repos\RaonPointWindowsForms\RaonPointWindowsForms\obj\Debug\RaonPointWindowsForms.Views.Pages.User.Dashboard.resources
 C:\Users\ryanpaul\source\repos\RaonPointWindowsForms\RaonPointWindowsForms\obj\Debug\RaonPointWindowsForms.Views.Pages.User.MembershipPlan.resources
 C:\Users\ryanpaul\source\repos\RaonPointWindowsForms\RaonPointWindowsForms\obj\Debug\RaonPointWindowsForms.Views.Pages.User.WorkoutPlan.resources
+C:\Users\ryanpaul\source\repos\RaonPointWindowsForms\RaonPointWindowsForms\obj\Debug\RaonPointWindowsForms.Forms.OverlayForm.resources
+C:\Users\ryanpaul\source\repos\RaonPointWindowsForms\RaonPointWindowsForms\obj\Debug\RaonPointWindowsForms.Forms.Components.ConfirmModal.resources
+C:\Users\ryanpaul\source\repos\RaonPointWindowsForms\RaonPointWindowsForms\obj\Debug\RaonPointWindowsForms.Forms.Components.EditUser.resources
+C:\Users\ryanpaul\source\repos\RaonPointWindowsForms\RaonPointWindowsForms\obj\Debug\RaonPointWindowsForms.Forms.Components.Approved.resources
+C:\Users\ryanpaul\source\repos\RaonPointWindowsForms\RaonPointWindowsForms\obj\Debug\RaonPointWindowsForms.Views.Components.TodayScheduleListItem.resources
+C:\Users\ryanpaul\source\repos\RaonPointWindowsForms\RaonPointWindowsForms\obj\Debug\RaonPointWindowsForms.Views.Pages.Trainer.ClassSchedule.resources
+C:\Users\ryanpaul\source\repos\RaonPointWindowsForms\RaonPointWindowsForms\obj\Debug\RaonPointWindowsForms.Views.Components.ClassScheduleListItem.resources
+C:\Users\ryanpaul\source\repos\RaonPointWindowsForms\RaonPointWindowsForms\obj\Debug\RaonPointWindowsForms.Forms.Components.CreateSchedule.resources
+C:\Users\ryanpaul\source\repos\RaonPointWindowsForms\RaonPointWindowsForms\obj\Debug\RaonPointWindowsForms.Forms.Components.ViewBookingDetails.resources
+C:\Users\ryanpaul\source\repos\RaonPointWindowsForms\RaonPointWindowsForms\obj\Debug\RaonPointWindowsForms.Views.Components.BookingListItem.resources
+C:\Users\ryanpaul\source\repos\RaonPointWindowsForms\RaonPointWindowsForms\obj\Debug\RaonPointWindowsForms.Views.Components.HistoryListItem.resources
+C:\Users\ryanpaul\source\repos\RaonPointWindowsForms\RaonPointWindowsForms\obj\Debug\RaonPointWindowsForms.Views.Pages.User.Schedules.resources
+C:\Users\ryanpaul\source\repos\RaonPointWindowsForms\RaonPointWindowsForms\obj\Debug\RaonPointWindowsForms.Views.Components.RecentHistoryListItem.resources

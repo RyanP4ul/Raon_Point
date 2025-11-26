@@ -11,6 +11,7 @@ namespace RaonPointWindowsForms.Auth
     {
 
         public static User CurrentUser;
+        public static int member_id;
 
     }
 }

@@ -1,6 +1,4 @@
-﻿using RaonPointWindowsForms.Utils;
-using RaonPointWindowsForms.Views.Components.Modals;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -28,7 +26,7 @@ namespace RaonPointWindowsForms.Views.Pages.Trainer
 
         private void btnSignUp_Click(object sender, EventArgs e)
         {
-            Modal.ShowModal(ParentForm, new RegistrationSuccessModal());
+            //Utils.Utils.ShowModal(ParentForm, new RegistrationSuccessModal());
         }
     }
 }
