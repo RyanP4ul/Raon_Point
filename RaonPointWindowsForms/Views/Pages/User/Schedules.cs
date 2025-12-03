@@ -39,7 +39,7 @@ namespace RaonPointWindowsForms.Views.Pages.User
             await Database.Instance.ExecuteWithConnection(async connection =>
             {
                 var schedules = await connection.QueryAsync<dynamic>(
-                    "SELECT s.id, s.start_time, s.end_time, s.location, s.max_capacity, s.name, s.category, (SELECT name FROM users WHERE id = s.trainer_id) AS trainer_name, (SELECT COUNT(*) FROM bookings WHERE schedule_id = s.id) as book_count FROM class_schedules as s WHERE CAST(s.start_time AS DATE) = @today",
+                    "SELECT s.id, s.start_time, s.end_time, s.location, s.max_capacity, s.name, s.category, (SELECT name FROM users WHERE id = s.trainer_id) AS trainer_name, (SELECT COUNT(*) FROM bookings WHERE schedule_id = s.id) as book_count FROM class_schedules as s WHERE DATE(s.created_at) = @today",
                     new { today = DateTime.Today }
                 );
 
