@@ -74,7 +74,7 @@ namespace RaonPointWindowsForms
                 return;
             }
 
-            await Database.Instance.ExecuteWithConnection(async (connection) =>
+            await Database.Instance.ExecuteWithTransactionAsync(async (connection, transaction) =>
             {
                 var user = await connection.QueryFirstOrDefaultAsync<User>("SELECT * FROM users WHERE email = @Email", new
                 {
@@ -122,6 +122,12 @@ namespace RaonPointWindowsForms
 
                     Session.member_id = Convert.ToInt32(member.id);
                 }
+
+                await connection.ExecuteAsync("UPDATE users SET login_at = @LastLogin WHERE id = @UserId", new
+                {
+                    LastLogin = DateTime.Now,
+                    UserId = user.id
+                });
 
                 Session.CurrentUser = user;
 

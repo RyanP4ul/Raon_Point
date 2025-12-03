@@ -178,6 +178,12 @@
     <Compile Include="Forms\Components\CreateSchedule.Designer.cs">
       <DependentUpon>CreateSchedule.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\Components\EditMember.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Components\EditMember.Designer.cs">
+      <DependentUpon>EditMember.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\Components\EditUser.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -273,6 +279,18 @@
     <Compile Include="Views\Components\TransparentPanel .cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="Views\Components\UserListItem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Components\UserListItem.Designer.cs">
+      <DependentUpon>UserListItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Pages\Admin\Users.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Pages\Admin\Users.Designer.cs">
+      <DependentUpon>Users.cs</DependentUpon>
+    </Compile>
     <Compile Include="Views\Pages\Trainer\Attendance.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -362,6 +380,9 @@
     <EmbeddedResource Include="Forms\Components\CreateSchedule.resx">
       <DependentUpon>CreateSchedule.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Components\EditMember.resx">
+      <DependentUpon>EditMember.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\Components\EditUser.resx">
       <DependentUpon>EditUser.cs</DependentUpon>
     </EmbeddedResource>
@@ -397,6 +418,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Views\Components\TodayScheduleListItem.resx">
       <DependentUpon>TodayScheduleListItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Components\UserListItem.resx">
+      <DependentUpon>UserListItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Pages\Admin\Users.resx">
+      <DependentUpon>Users.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\Pages\Trainer\Attendance.resx">
       <DependentUpon>Attendance.cs</DependentUpon>

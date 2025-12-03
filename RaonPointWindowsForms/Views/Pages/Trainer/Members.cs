@@ -156,7 +156,7 @@ namespace RaonPointWindowsForms.Views.Pages.Trainer
         public async Task EditMember(dynamic member)
         {
             var main = (Main) Parent.Parent;
-            main.ShowModal(new EditUser(member));
+            main.ShowModal(new EditMember(member));
         }
 
         public async Task UpdateMember(int memberId, int userId, string first_name, string last_name, string plan)

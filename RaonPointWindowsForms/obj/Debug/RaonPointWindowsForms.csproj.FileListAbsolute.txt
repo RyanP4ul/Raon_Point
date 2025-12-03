@@ -99,3 +99,6 @@ C:\Users\ryanpaul\source\repos\RaonPointWindowsForms\RaonPointWindowsForms\obj\D
 C:\Users\ryanpaul\source\repos\RaonPointWindowsForms\RaonPointWindowsForms\obj\Debug\RaonPointWindowsForms.Views.Components.HistoryListItem.resources
 C:\Users\ryanpaul\source\repos\RaonPointWindowsForms\RaonPointWindowsForms\obj\Debug\RaonPointWindowsForms.Views.Pages.User.Schedules.resources
 C:\Users\ryanpaul\source\repos\RaonPointWindowsForms\RaonPointWindowsForms\obj\Debug\RaonPointWindowsForms.Views.Components.RecentHistoryListItem.resources
+C:\Users\ryanpaul\source\repos\RaonPointWindowsForms\RaonPointWindowsForms\obj\Debug\RaonPointWindowsForms.Views.Pages.Admin.Users.resources
+C:\Users\ryanpaul\source\repos\RaonPointWindowsForms\RaonPointWindowsForms\obj\Debug\RaonPointWindowsForms.Views.Components.UserListItem.resources
+C:\Users\ryanpaul\source\repos\RaonPointWindowsForms\RaonPointWindowsForms\obj\Debug\RaonPointWindowsForms.Forms.Components.EditMember.resources

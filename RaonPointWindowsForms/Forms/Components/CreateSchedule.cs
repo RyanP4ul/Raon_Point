@@ -31,7 +31,7 @@ namespace RaonPointWindowsForms.Forms.Components
         {
             await Database.Instance.ExecuteWithConnection(async (connection) =>
             {
-                var trainers = await connection.QueryAsync<User>("SELECT id, first_name, last_name FROM users WHERE role = 'Trainer'");
+                var trainers = await connection.QueryAsync<User>("SELECT id, first_name, last_name FROM users WHERE role = 'Trainer' AND DATE(login_at) = @Now", new { Now = DateTime.Today });
 
                 foreach (var t in trainers)
                 {
@@ -51,6 +51,15 @@ namespace RaonPointWindowsForms.Forms.Components
             if (!int.TryParse(tbMaxCapacity.Texts, out var max_capacity))
             {
                 MessageBox.Show("Max Capacity must be a valid number.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            if (
+                !DateTime.TryParseExact(tbStartTime.Texts, "hh mm tt", System.Globalization.CultureInfo.InvariantCulture, System.Globalization.DateTimeStyles.None, out _) || 
+                !DateTime.TryParseExact(tbEndTime.Texts, "hh mm tt", System.Globalization.CultureInfo.InvariantCulture, System.Globalization.DateTimeStyles.None, out _)
+                )
+            {
+                MessageBox.Show("Invalid Start Time or End Time. Use format HH MM AM/PM", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 

@@ -52,9 +52,10 @@
             this.panelHeader.Controls.Add(this.lblPageName);
             this.panelHeader.Controls.Add(this.label2);
             this.panelHeader.Controls.Add(this.label1);
-            this.panelHeader.Location = new System.Drawing.Point(-3, 0);
+            this.panelHeader.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panelHeader.Location = new System.Drawing.Point(0, 0);
             this.panelHeader.Name = "panelHeader";
-            this.panelHeader.Size = new System.Drawing.Size(1273, 57);
+            this.panelHeader.Size = new System.Drawing.Size(1264, 57);
             this.panelHeader.TabIndex = 0;
             this.panelHeader.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelHeader_MouseDown);
             // 
@@ -105,18 +106,20 @@
             // contentPanel
             // 
             this.contentPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(49)))), ((int)(((byte)(49)))));
-            this.contentPanel.Location = new System.Drawing.Point(209, 63);
+            this.contentPanel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.contentPanel.Location = new System.Drawing.Point(203, 57);
             this.contentPanel.Name = "contentPanel";
-            this.contentPanel.Size = new System.Drawing.Size(1043, 600);
+            this.contentPanel.Size = new System.Drawing.Size(1061, 604);
             this.contentPanel.TabIndex = 2;
             // 
             // panelMenu
             // 
             this.panelMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(49)))), ((int)(((byte)(49)))));
             this.panelMenu.Controls.Add(this.btnLogout);
+            this.panelMenu.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelMenu.Location = new System.Drawing.Point(0, 57);
             this.panelMenu.Name = "panelMenu";
-            this.panelMenu.Size = new System.Drawing.Size(203, 606);
+            this.panelMenu.Size = new System.Drawing.Size(203, 604);
             this.panelMenu.TabIndex = 1;
             // 
             // btnLogout

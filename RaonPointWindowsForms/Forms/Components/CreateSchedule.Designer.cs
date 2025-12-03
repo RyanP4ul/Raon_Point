@@ -255,7 +255,7 @@
             this.tbMaxCapacity.ScrollBars = System.Windows.Forms.ScrollBars.None;
             this.tbMaxCapacity.Size = new System.Drawing.Size(241, 33);
             this.tbMaxCapacity.TabIndex = 48;
-            this.tbMaxCapacity.Texts = "0";
+            this.tbMaxCapacity.Texts = "10";
             this.tbMaxCapacity.UnderlinedStyle = false;
             // 
             // tbClassName

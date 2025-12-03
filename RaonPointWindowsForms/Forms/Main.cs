@@ -2,6 +2,7 @@
 using RaonPointWindowsForms.Entities.View;
 using RaonPointWindowsForms.Forms.Components;
 using RaonPointWindowsForms.Views.Components;
+using RaonPointWindowsForms.Views.Pages.Admin;
 using RaonPointWindowsForms.Views.Pages.Trainer;
 using RaonPointWindowsForms.Views.Pages.User;
 using System;
@@ -41,20 +42,23 @@ namespace RaonPointWindowsForms.Forms.Admin
                 return;
             }
 
-            if (Session.CurrentUser.role != "Trainer")
-            {
-                menuItems.Add(new MenuItemView() { Title = "  Dashboard   ", Image = Properties.Resources.dashboard, Action = () => LoadUserControl(new UserDashboard()) });
-                menuItems.Add(new MenuItemView() { Title = "Schedules", Image = Properties.Resources.schedule, Action = () => LoadUserControl(new Schedules()) });
-                //menuItems.Add(new MenuItemView() { Title = "Workout Plan", Image = Properties.Resources.dashboard, Action = () => LoadUserControl(new WorkoutPlan()) });
-                //menuItems.Add(new MenuItemView() { Title = "Membership Plan", Image = Properties.Resources.dashboard, Action = () => LoadUserControl(new MembershipPlan()) });
-            }
-            else
+            if (Session.CurrentUser.role == "Trainer" || Session.CurrentUser.role == "Admin")
             {
                 menuItems.Add(new MenuItemView() { Title = "  Dashboard   ", Image = Properties.Resources.dashboard, Action = () => LoadUserControl(new AdminDashboard()) });
                 menuItems.Add(new MenuItemView() { Title = "  Members     ", Image = Properties.Resources.lists, Action = () => LoadUserControl(new Members()) });
                 menuItems.Add(new MenuItemView() { Title = "  Class Schedule", Image = Properties.Resources.registration, Action = () => LoadUserControl(new ClassSchedule()) });
                 menuItems.Add(new MenuItemView() { Title = " Attendance  ", Image = Properties.Resources.attendance, Action = () => LoadUserControl(new Attendance()) });
                 menuItems.Add(new MenuItemView() { Title = "History     ", Image = Properties.Resources.history, Action = () => LoadUserControl(new History()) });
+
+                if (Session.CurrentUser.role == "Admin")
+                {
+                    menuItems.Add(new MenuItemView() { Title = "Users     ", Image = Properties.Resources.history, Action = () => LoadUserControl(new Users()) });
+                }
+            }
+            else
+            {
+                menuItems.Add(new MenuItemView() { Title = "  Dashboard   ", Image = Properties.Resources.dashboard, Action = () => LoadUserControl(new UserDashboard()) });
+                menuItems.Add(new MenuItemView() { Title = "Schedules", Image = Properties.Resources.schedule, Action = () => LoadUserControl(new Schedules()) });
             }
         }
 
@@ -102,13 +106,13 @@ namespace RaonPointWindowsForms.Forms.Admin
             CurrentMenuItem = panelMenu.Controls[1] as MenuListItem;
             CurrentMenuItem.toggleActiveState(true);
 
-            if (Session.CurrentUser.role != "Trainer")
+            if (Session.CurrentUser.role == "Trainer" || Session.CurrentUser.role == "Admin")
             {
-                LoadUserControl(new UserDashboard());
+                LoadUserControl(new AdminDashboard());
             }
             else
             {
-                LoadUserControl(new AdminDashboard());
+                LoadUserControl(new UserDashboard());
             }
 
 
