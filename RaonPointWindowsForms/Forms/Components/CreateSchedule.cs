@@ -55,15 +55,15 @@ namespace RaonPointWindowsForms.Forms.Components
             }
 
             if (
-                !DateTime.TryParseExact(tbStartTime.Texts, "hh mm tt", System.Globalization.CultureInfo.InvariantCulture, System.Globalization.DateTimeStyles.None, out _) || 
-                !DateTime.TryParseExact(tbEndTime.Texts, "hh mm tt", System.Globalization.CultureInfo.InvariantCulture, System.Globalization.DateTimeStyles.None, out _)
+                !DateTime.TryParseExact(tbStartTime.Texts, new[] { "hh:mm tt", "hh:mm:ss tt" }, System.Globalization.CultureInfo.InvariantCulture, System.Globalization.DateTimeStyles.None, out _) || 
+                !DateTime.TryParseExact(tbEndTime.Texts, new[] { "hh:mm tt", "hh:mm:ss tt" }, System.Globalization.CultureInfo.InvariantCulture, System.Globalization.DateTimeStyles.None, out _)
                 )
             {
                 MessageBox.Show("Invalid Start Time or End Time. Use format HH MM AM/PM", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 
-            if (max_capacity > 0)
+            if (max_capacity < 0)
             {
                 MessageBox.Show("Invalid Max Capacity. Make sure it greater than 0", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;

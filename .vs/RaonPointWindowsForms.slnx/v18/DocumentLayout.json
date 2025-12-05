@@ -3,36 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\ryanpaul\\source\\repos\\RaonPointWindowsForms\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{36C8E630-F1FE-4E80-9985-F92EC9BCA8F6}|RaonPointWindowsForms\\RaonPointWindowsForms.csproj|c:\\users\\ryanpaul\\source\\repos\\raonpointwindowsforms\\raonpointwindowsforms\\forms\\components\\viewbookingdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36C8E630-F1FE-4E80-9985-F92EC9BCA8F6}|RaonPointWindowsForms\\RaonPointWindowsForms.csproj|solutionrelative:raonpointwindowsforms\\forms\\components\\viewbookingdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{36C8E630-F1FE-4E80-9985-F92EC9BCA8F6}|RaonPointWindowsForms\\RaonPointWindowsForms.csproj|c:\\users\\ryanpaul\\source\\repos\\raonpointwindowsforms\\raonpointwindowsforms\\views\\components\\recenthistorylistitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36C8E630-F1FE-4E80-9985-F92EC9BCA8F6}|RaonPointWindowsForms\\RaonPointWindowsForms.csproj|solutionrelative:raonpointwindowsforms\\views\\components\\recenthistorylistitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36C8E630-F1FE-4E80-9985-F92EC9BCA8F6}|RaonPointWindowsForms\\RaonPointWindowsForms.csproj|c:\\users\\ryanpaul\\source\\repos\\raonpointwindowsforms\\raonpointwindowsforms\\forms\\components\\viewbookingdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{36C8E630-F1FE-4E80-9985-F92EC9BCA8F6}|RaonPointWindowsForms\\RaonPointWindowsForms.csproj|solutionrelative:raonpointwindowsforms\\forms\\components\\viewbookingdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{36C8E630-F1FE-4E80-9985-F92EC9BCA8F6}|RaonPointWindowsForms\\RaonPointWindowsForms.csproj|c:\\users\\ryanpaul\\source\\repos\\raonpointwindowsforms\\raonpointwindowsforms\\views\\components\\recenthistorylistitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{36C8E630-F1FE-4E80-9985-F92EC9BCA8F6}|RaonPointWindowsForms\\RaonPointWindowsForms.csproj|solutionrelative:raonpointwindowsforms\\views\\components\\recenthistorylistitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36C8E630-F1FE-4E80-9985-F92EC9BCA8F6}|RaonPointWindowsForms\\RaonPointWindowsForms.csproj|c:\\users\\ryanpaul\\source\\repos\\raonpointwindowsforms\\raonpointwindowsforms\\views\\components\\classschedulelistitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{36C8E630-F1FE-4E80-9985-F92EC9BCA8F6}|RaonPointWindowsForms\\RaonPointWindowsForms.csproj|solutionrelative:raonpointwindowsforms\\views\\components\\classschedulelistitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36C8E630-F1FE-4E80-9985-F92EC9BCA8F6}|RaonPointWindowsForms\\RaonPointWindowsForms.csproj|c:\\users\\ryanpaul\\source\\repos\\raonpointwindowsforms\\raonpointwindowsforms\\views\\pages\\trainer\\classschedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{36C8E630-F1FE-4E80-9985-F92EC9BCA8F6}|RaonPointWindowsForms\\RaonPointWindowsForms.csproj|solutionrelative:raonpointwindowsforms\\views\\pages\\trainer\\classschedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36C8E630-F1FE-4E80-9985-F92EC9BCA8F6}|RaonPointWindowsForms\\RaonPointWindowsForms.csproj|c:\\users\\ryanpaul\\source\\repos\\raonpointwindowsforms\\raonpointwindowsforms\\views\\pages\\trainer\\classschedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36C8E630-F1FE-4E80-9985-F92EC9BCA8F6}|RaonPointWindowsForms\\RaonPointWindowsForms.csproj|solutionrelative:raonpointwindowsforms\\views\\pages\\trainer\\classschedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36C8E630-F1FE-4E80-9985-F92EC9BCA8F6}|RaonPointWindowsForms\\RaonPointWindowsForms.csproj|c:\\users\\ryanpaul\\source\\repos\\raonpointwindowsforms\\raonpointwindowsforms\\views\\pages\\user\\schedules.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{36C8E630-F1FE-4E80-9985-F92EC9BCA8F6}|RaonPointWindowsForms\\RaonPointWindowsForms.csproj|solutionrelative:raonpointwindowsforms\\views\\pages\\user\\schedules.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36C8E630-F1FE-4E80-9985-F92EC9BCA8F6}|RaonPointWindowsForms\\RaonPointWindowsForms.csproj|c:\\users\\ryanpaul\\source\\repos\\raonpointwindowsforms\\raonpointwindowsforms\\views\\pages\\user\\schedules.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36C8E630-F1FE-4E80-9985-F92EC9BCA8F6}|RaonPointWindowsForms\\RaonPointWindowsForms.csproj|solutionrelative:raonpointwindowsforms\\views\\pages\\user\\schedules.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36C8E630-F1FE-4E80-9985-F92EC9BCA8F6}|RaonPointWindowsForms\\RaonPointWindowsForms.csproj|c:\\users\\ryanpaul\\source\\repos\\raonpointwindowsforms\\raonpointwindowsforms\\views\\components\\classschedulelistitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36C8E630-F1FE-4E80-9985-F92EC9BCA8F6}|RaonPointWindowsForms\\RaonPointWindowsForms.csproj|solutionrelative:raonpointwindowsforms\\views\\components\\classschedulelistitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{36C8E630-F1FE-4E80-9985-F92EC9BCA8F6}|RaonPointWindowsForms\\RaonPointWindowsForms.csproj|c:\\users\\ryanpaul\\source\\repos\\raonpointwindowsforms\\raonpointwindowsforms\\views\\pages\\trainer\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{36C8E630-F1FE-4E80-9985-F92EC9BCA8F6}|RaonPointWindowsForms\\RaonPointWindowsForms.csproj|solutionrelative:raonpointwindowsforms\\views\\pages\\trainer\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -47,101 +27,38 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ViewBookingDetails.cs",
-              "DocumentMoniker": "C:\\Users\\ryanpaul\\source\\repos\\RaonPointWindowsForms\\RaonPointWindowsForms\\Forms\\Components\\ViewBookingDetails.cs",
-              "RelativeDocumentMoniker": "RaonPointWindowsForms\\Forms\\Components\\ViewBookingDetails.cs",
-              "ToolTip": "C:\\Users\\ryanpaul\\source\\repos\\RaonPointWindowsForms\\RaonPointWindowsForms\\Forms\\Components\\ViewBookingDetails.cs",
-              "RelativeToolTip": "RaonPointWindowsForms\\Forms\\Components\\ViewBookingDetails.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Title": "RecentHistoryListItem.cs",
+              "DocumentMoniker": "C:\\Users\\ryanpaul\\source\\repos\\RaonPointWindowsForms\\RaonPointWindowsForms\\Views\\Components\\RecentHistoryListItem.cs",
+              "RelativeDocumentMoniker": "RaonPointWindowsForms\\Views\\Components\\RecentHistoryListItem.cs",
+              "ToolTip": "C:\\Users\\ryanpaul\\source\\repos\\RaonPointWindowsForms\\RaonPointWindowsForms\\Views\\Components\\RecentHistoryListItem.cs",
+              "RelativeToolTip": "RaonPointWindowsForms\\Views\\Components\\RecentHistoryListItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-03T12:14:31.281Z",
+              "WhenOpened": "2025-12-05T13:29:21.562Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ViewBookingDetails.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ryanpaul\\source\\repos\\RaonPointWindowsForms\\RaonPointWindowsForms\\Forms\\Components\\ViewBookingDetails.cs",
-              "RelativeDocumentMoniker": "RaonPointWindowsForms\\Forms\\Components\\ViewBookingDetails.cs",
-              "ToolTip": "C:\\Users\\ryanpaul\\source\\repos\\RaonPointWindowsForms\\RaonPointWindowsForms\\Forms\\Components\\ViewBookingDetails.cs [Design]",
-              "RelativeToolTip": "RaonPointWindowsForms\\Forms\\Components\\ViewBookingDetails.cs [Design]",
+              "Title": "RecentHistoryListItem.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ryanpaul\\source\\repos\\RaonPointWindowsForms\\RaonPointWindowsForms\\Views\\Components\\RecentHistoryListItem.cs",
+              "RelativeDocumentMoniker": "RaonPointWindowsForms\\Views\\Components\\RecentHistoryListItem.cs",
+              "ToolTip": "C:\\Users\\ryanpaul\\source\\repos\\RaonPointWindowsForms\\RaonPointWindowsForms\\Views\\Components\\RecentHistoryListItem.cs [Design]",
+              "RelativeToolTip": "RaonPointWindowsForms\\Views\\Components\\RecentHistoryListItem.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-03T12:17:00.182Z",
+              "WhenOpened": "2025-12-05T13:29:19.384Z",
               "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ClassScheduleListItem.cs",
-              "DocumentMoniker": "C:\\Users\\ryanpaul\\source\\repos\\RaonPointWindowsForms\\RaonPointWindowsForms\\Views\\Components\\ClassScheduleListItem.cs",
-              "RelativeDocumentMoniker": "RaonPointWindowsForms\\Views\\Components\\ClassScheduleListItem.cs",
-              "ToolTip": "C:\\Users\\ryanpaul\\source\\repos\\RaonPointWindowsForms\\RaonPointWindowsForms\\Views\\Components\\ClassScheduleListItem.cs",
-              "RelativeToolTip": "RaonPointWindowsForms\\Views\\Components\\ClassScheduleListItem.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAD4v1EAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-03T12:13:58.166Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ClassScheduleListItem.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ryanpaul\\source\\repos\\RaonPointWindowsForms\\RaonPointWindowsForms\\Views\\Components\\ClassScheduleListItem.cs",
-              "RelativeDocumentMoniker": "RaonPointWindowsForms\\Views\\Components\\ClassScheduleListItem.cs",
-              "ToolTip": "C:\\Users\\ryanpaul\\source\\repos\\RaonPointWindowsForms\\RaonPointWindowsForms\\Views\\Components\\ClassScheduleListItem.cs [Design]",
-              "RelativeToolTip": "RaonPointWindowsForms\\Views\\Components\\ClassScheduleListItem.cs [Design]",
+              "Title": "Dashboard.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\ryanpaul\\source\\repos\\RaonPointWindowsForms\\RaonPointWindowsForms\\Views\\Pages\\Trainer\\Dashboard.cs",
+              "RelativeDocumentMoniker": "RaonPointWindowsForms\\Views\\Pages\\Trainer\\Dashboard.cs",
+              "ToolTip": "C:\\Users\\ryanpaul\\source\\repos\\RaonPointWindowsForms\\RaonPointWindowsForms\\Views\\Pages\\Trainer\\Dashboard.cs [Design]",
+              "RelativeToolTip": "RaonPointWindowsForms\\Views\\Pages\\Trainer\\Dashboard.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-03T12:13:56.683Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Schedules.cs",
-              "DocumentMoniker": "C:\\Users\\ryanpaul\\source\\repos\\RaonPointWindowsForms\\RaonPointWindowsForms\\Views\\Pages\\User\\Schedules.cs",
-              "RelativeDocumentMoniker": "RaonPointWindowsForms\\Views\\Pages\\User\\Schedules.cs",
-              "ToolTip": "C:\\Users\\ryanpaul\\source\\repos\\RaonPointWindowsForms\\RaonPointWindowsForms\\Views\\Pages\\User\\Schedules.cs",
-              "RelativeToolTip": "RaonPointWindowsForms\\Views\\Pages\\User\\Schedules.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAowCwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-03T12:06:54.16Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Schedules.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ryanpaul\\source\\repos\\RaonPointWindowsForms\\RaonPointWindowsForms\\Views\\Pages\\User\\Schedules.cs",
-              "RelativeDocumentMoniker": "RaonPointWindowsForms\\Views\\Pages\\User\\Schedules.cs",
-              "ToolTip": "C:\\Users\\ryanpaul\\source\\repos\\RaonPointWindowsForms\\RaonPointWindowsForms\\Views\\Pages\\User\\Schedules.cs [Design]",
-              "RelativeToolTip": "RaonPointWindowsForms\\Views\\Pages\\User\\Schedules.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-03T12:06:52.795Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ClassSchedule.cs",
-              "DocumentMoniker": "C:\\Users\\ryanpaul\\source\\repos\\RaonPointWindowsForms\\RaonPointWindowsForms\\Views\\Pages\\Trainer\\ClassSchedule.cs",
-              "RelativeDocumentMoniker": "RaonPointWindowsForms\\Views\\Pages\\Trainer\\ClassSchedule.cs",
-              "ToolTip": "C:\\Users\\ryanpaul\\source\\repos\\RaonPointWindowsForms\\RaonPointWindowsForms\\Views\\Pages\\Trainer\\ClassSchedule.cs",
-              "RelativeToolTip": "RaonPointWindowsForms\\Views\\Pages\\Trainer\\ClassSchedule.cs",
-              "ViewState": "AgIAAEAAAAAAAAAAAAAhwC8AAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-03T12:02:33.495Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ClassSchedule.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\ryanpaul\\source\\repos\\RaonPointWindowsForms\\RaonPointWindowsForms\\Views\\Pages\\Trainer\\ClassSchedule.cs",
-              "RelativeDocumentMoniker": "RaonPointWindowsForms\\Views\\Pages\\Trainer\\ClassSchedule.cs",
-              "ToolTip": "C:\\Users\\ryanpaul\\source\\repos\\RaonPointWindowsForms\\RaonPointWindowsForms\\Views\\Pages\\Trainer\\ClassSchedule.cs [Design]",
-              "RelativeToolTip": "RaonPointWindowsForms\\Views\\Pages\\Trainer\\ClassSchedule.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-03T12:02:31.705Z",
+              "WhenOpened": "2025-12-05T13:29:14.175Z",
               "EditorCaption": " [Design]"
             }
           ]

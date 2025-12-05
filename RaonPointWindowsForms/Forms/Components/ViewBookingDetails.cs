@@ -28,8 +28,6 @@ namespace RaonPointWindowsForms.Forms.Components
         {
             await Database.Instance.ExecuteWithConnection(async connection =>
             {
-                Console.WriteLine("View Booking schedule id: " + scheduleId);
-
                 var schedules = await connection.QueryAsync<dynamic>("SELECt u.first_name, u.last_name, (SELECt name FROM class_schedules WHERE id = b.schedule_id) as title FROM bookings as b LEFT JOIN members AS m ON b.member_id = m.id LEFT JOIN users AS u ON m.user_id = u.id WHERE b.schedule_id = @Id", new { 
                     Id = scheduleId
                 });
