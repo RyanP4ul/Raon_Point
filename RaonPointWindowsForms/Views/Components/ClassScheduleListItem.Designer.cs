@@ -69,9 +69,9 @@
             this.lblTrainer.ForeColor = System.Drawing.Color.Gainsboro;
             this.lblTrainer.Location = new System.Drawing.Point(39, 86);
             this.lblTrainer.Name = "lblTrainer";
-            this.lblTrainer.Size = new System.Drawing.Size(73, 19);
+            this.lblTrainer.Size = new System.Drawing.Size(47, 19);
             this.lblTrainer.TabIndex = 3;
-            this.lblTrainer.Text = "Ryan Paul";
+            this.lblTrainer.Text = "Name";
             // 
             // lblTime
             // 

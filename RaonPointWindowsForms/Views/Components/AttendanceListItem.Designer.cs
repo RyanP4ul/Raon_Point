@@ -40,9 +40,9 @@
             this.lblName.ForeColor = System.Drawing.Color.Gainsboro;
             this.lblName.Location = new System.Drawing.Point(26, 15);
             this.lblName.Name = "lblName";
-            this.lblName.Size = new System.Drawing.Size(154, 18);
+            this.lblName.Size = new System.Drawing.Size(52, 18);
             this.lblName.TabIndex = 1;
-            this.lblName.Text = "Ryan Paul Espinola";
+            this.lblName.Text = "Name";
             // 
             // lblCheckInTime
             // 

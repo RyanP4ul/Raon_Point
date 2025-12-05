@@ -42,9 +42,9 @@
             this.lblEmail.ForeColor = System.Drawing.Color.Gainsboro;
             this.lblEmail.Location = new System.Drawing.Point(234, 10);
             this.lblEmail.Name = "lblEmail";
-            this.lblEmail.Size = new System.Drawing.Size(233, 19);
+            this.lblEmail.Size = new System.Drawing.Size(126, 19);
             this.lblEmail.TabIndex = 4;
-            this.lblEmail.Text = "espinolaryanpaul2028@gmail.com";
+            this.lblEmail.Text = "email@gmail.com";
             // 
             // lblFullName
             // 
@@ -54,7 +54,7 @@
             this.lblFullName.Name = "lblFullName";
             this.lblFullName.Size = new System.Drawing.Size(178, 20);
             this.lblFullName.TabIndex = 3;
-            this.lblFullName.Text = "Ryan Paul Espinola";
+            this.lblFullName.Text = "Name";
             // 
             // lblRole
             // 

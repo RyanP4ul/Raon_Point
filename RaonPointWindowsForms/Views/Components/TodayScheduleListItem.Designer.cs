@@ -54,9 +54,9 @@
             this.lblStudio.ForeColor = System.Drawing.Color.Gainsboro;
             this.lblStudio.Location = new System.Drawing.Point(124, 45);
             this.lblStudio.Name = "lblStudio";
-            this.lblStudio.Size = new System.Drawing.Size(89, 15);
+            this.lblStudio.Size = new System.Drawing.Size(93, 15);
             this.lblStudio.TabIndex = 2;
-            this.lblStudio.Text = "Studio A - Ryan";
+            this.lblStudio.Text = "Studio A - Name";
             // 
             // roundedBorderedPanel1
             // 

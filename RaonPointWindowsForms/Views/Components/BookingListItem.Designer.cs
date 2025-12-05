@@ -39,7 +39,7 @@
             this.lblName.Name = "lblName";
             this.lblName.Size = new System.Drawing.Size(408, 23);
             this.lblName.TabIndex = 0;
-            this.lblName.Text = "Ryan Paul Espinola";
+            this.lblName.Text = "Name";
             // 
             // BookingListItem
             // 

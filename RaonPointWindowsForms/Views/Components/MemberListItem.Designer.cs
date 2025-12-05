@@ -45,9 +45,9 @@
             this.lblName.ForeColor = System.Drawing.Color.Silver;
             this.lblName.Location = new System.Drawing.Point(159, 14);
             this.lblName.Name = "lblName";
-            this.lblName.Size = new System.Drawing.Size(63, 15);
+            this.lblName.Size = new System.Drawing.Size(41, 15);
             this.lblName.TabIndex = 0;
-            this.lblName.Text = "Ryan Paul";
+            this.lblName.Text = "Name";
             // 
             // lblMemberId
             // 
